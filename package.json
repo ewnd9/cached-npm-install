@@ -1,0 +1,25 @@
+{
+  "name": "cached-npm-install",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "preferGlobal": "true",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewnd9/cached-npm-install.git"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "ewnd9 <ewndnine@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hasha": "^2.2.0",
+    "user-home": "^2.0.0"
+  },
+  "devDependencies": {}
+}
