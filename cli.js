@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+'use strict';
+
 const fs = require('fs');
 const modules = process.cwd() + '/node_modules';
 
@@ -16,7 +18,7 @@ if(!fs.existsSync(cacheBase)) {
   fs.mkdirSync(cacheBase);
 }
 
-const pkg = require('./package.json');
+const pkg = require(process.cwd() + '/package.json');
 const deps = JSON.stringify(Object.assign({},
   pkg.dependencies || {},
   pkg.devDependencies || {}

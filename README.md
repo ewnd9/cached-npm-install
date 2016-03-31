@@ -1,5 +1,7 @@
 # cached-npm-install
 
+Cache/restore `node_modules` based on hashsum of `dependencies` and `devDependencies` from `package.json`.
+
 ## Install
 
 ```
