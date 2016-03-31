@@ -1,6 +1,6 @@
 {
   "name": "cached-npm-install",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cache/restore \"node_modules\" based on hashsum of \"dependencies\" and \"devDependencies\" from \"package.json\"",
   "main": "lib/index.js",
   "bin": "cli.js",
