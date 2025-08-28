@@ -4,9 +4,7 @@ Cache/restore `node_modules` based on hashsum of `dependencies` and `devDependen
 
 ## Install
 
-```
-$ npm install cached-npm-install -g
-```
+The `cached-npm-install` package was manually unpublished from npm on 2025-08-28. The name has been released for potential future use.
 
 ## Usage
 
